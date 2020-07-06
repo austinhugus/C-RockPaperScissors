@@ -1,0 +1,12 @@
+/Users/austinhugus/Documents/codeworks/rps/bin/Debug/netcoreapp3.1/rps.deps.json
+/Users/austinhugus/Documents/codeworks/rps/bin/Debug/netcoreapp3.1/rps.runtimeconfig.json
+/Users/austinhugus/Documents/codeworks/rps/bin/Debug/netcoreapp3.1/rps.runtimeconfig.dev.json
+/Users/austinhugus/Documents/codeworks/rps/bin/Debug/netcoreapp3.1/rps.dll
+/Users/austinhugus/Documents/codeworks/rps/bin/Debug/netcoreapp3.1/rps.pdb
+/Users/austinhugus/Documents/codeworks/rps/obj/Debug/netcoreapp3.1/rps.csprojAssemblyReference.cache
+/Users/austinhugus/Documents/codeworks/rps/obj/Debug/netcoreapp3.1/rps.AssemblyInfoInputs.cache
+/Users/austinhugus/Documents/codeworks/rps/obj/Debug/netcoreapp3.1/rps.AssemblyInfo.cs
+/Users/austinhugus/Documents/codeworks/rps/obj/Debug/netcoreapp3.1/rps.csproj.CoreCompileInputs.cache
+/Users/austinhugus/Documents/codeworks/rps/obj/Debug/netcoreapp3.1/rps.dll
+/Users/austinhugus/Documents/codeworks/rps/obj/Debug/netcoreapp3.1/rps.pdb
+/Users/austinhugus/Documents/codeworks/rps/obj/Debug/netcoreapp3.1/rps.genruntimeconfig.cache
