@@ -11,6 +11,8 @@ namespace rps {
             string name = Console.ReadLine ();
             bool valid = false;
             string ans = "";
+            int count = 0;
+            int count1 = 0;
 
             Console.WriteLine ($"Hello {name}, Are you Ready To Rock The Paper, Paper The Scissor and Scissor the Paper??");
             Console.WriteLine ("Are You Sure You Wish To Enter This Tournament?  (Y/N)");
@@ -48,25 +50,30 @@ namespace rps {
 -- -.__(___)
 
                     ");
-                    Console.WriteLine ("Choose Your Weapon! ROCK Paper Scissors");
+                    Console.WriteLine ("Choose Your Weapon! ROCK PAPER SCISSORS");
                     string userChoice = Console.ReadLine ().ToUpper ();
                     Random r = new Random ();
                     int computerChoice = r.Next (0, 4);
                     string[] choices = new string[3] { "ROCK", "PAPER", "SCISSORS" };
                     Console.WriteLine ("Computer:" + choices[computerChoice]);
-
                     if (userChoice == "ROCK" && choices[computerChoice] == "SCISSORS") {
                         Console.WriteLine ("You Win");
+                        count += 1;
                     } else if (userChoice == "ROCK" && choices[computerChoice] == "PAPER") {
                         Console.WriteLine ("YOU SUCK LOSER!");
+                        count1 += 1;
                     } else if (userChoice == "PAPER" && choices[computerChoice] == "ROCK") {
                         Console.WriteLine ("You Win!");
+                        count += 1;
                     } else if (userChoice == "PAPER" && choices[computerChoice] == "SCISSORS") {
                         Console.WriteLine ("YOU SUCK LOSER!");
+                        count1 += 1;
                     } else if (userChoice == "SCISSORS" && choices[computerChoice] == "ROCK") {
                         Console.WriteLine ("YOU SUCK LOSER!");
+                        count1 += 1;
                     } else if (userChoice == "SCISSORS" && choices[computerChoice] == "PAPER") {
                         Console.WriteLine ("YOU Win!");
+                        count += 1;
                     } else {
                         Console.WriteLine ("It's a Tie! Try Again you sister kisser!");
                     }
@@ -74,6 +81,8 @@ namespace rps {
                 } else {
                     Console.WriteLine ("SO LONG LOSER!");
                 }
+                Console.WriteLine ("User wins " + count + " times");
+                Console.WriteLine ("Computer wins " + count1 + " times");
             }
         }
     }
