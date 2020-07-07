@@ -55,7 +55,7 @@ namespace rps {
                     Random r = new Random ();
                     int computerChoice = r.Next (0, 4);
                     string[] choices = new string[3] { "ROCK", "PAPER", "SCISSORS" };
-                    Console.WriteLine ("Computer:" + choices[computerChoice]);
+                    Console.WriteLine ("Computer: " + choices[computerChoice]);
                     if (userChoice == "ROCK" && choices[computerChoice] == "SCISSORS") {
                         Console.WriteLine ("You Win");
                         count += 1;
@@ -73,16 +73,17 @@ namespace rps {
                         count1 += 1;
                     } else if (userChoice == "SCISSORS" && choices[computerChoice] == "PAPER") {
                         Console.WriteLine ("YOU Win!");
-                        count += 1;
+                        count += 1;;
                     } else {
                         Console.WriteLine ("It's a Tie! Try Again you sister kisser!");
                     }
                     Console.WriteLine ("Play Again If You Dare? (Y/N)");
+                    Console.WriteLine ("User wins " + count + " times");
+                    Console.WriteLine ("Computer wins " + count1 + " times");
                 } else {
                     Console.WriteLine ("SO LONG LOSER!");
+
                 }
-                Console.WriteLine ("User wins " + count + " times");
-                Console.WriteLine ("Computer wins " + count1 + " times");
             }
         }
     }
